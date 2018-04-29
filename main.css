@@ -46,23 +46,6 @@ body {
 }
 
 
-.centerDiv
-{
-    position: fixed; /* or absolute */
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-}
-
-
-@media only screen and (max-width: 600px) {
-    .btn-default {
-        width:100%;
-    }
-    
-}
 
 h5
 {
@@ -75,10 +58,13 @@ h5
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 60px;
+    height: 60px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    border-style: solid;
+    border-width: 1px;
   }
 .fa-facebook {
     background: #3B5998;
@@ -93,4 +79,16 @@ h5
   .fa-github {
     background: gray;
     color: white;
+  }
+
+  .tableCell:hover {
+    background-color: #000000;
+}
+
+.block {
+    width: 100px;
+    /*float: left;*/
+      display: inline-block;
+      zoom: 1;
+      
   }
