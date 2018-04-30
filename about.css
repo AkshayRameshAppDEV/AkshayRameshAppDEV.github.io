@@ -1,0 +1,12 @@
+body,html
+{
+    min-height: 100%;
+}
+
+body
+{
+    background-image: url(Clot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
